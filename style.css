@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.background-registration {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.54)), to(rgba(44, 62, 80, 0.39))), url(https://lk.kstu.ru/content/731298_1.jpg?id_wm=731298) no-repeat 0 40%;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 8px;
+}
+
+.header{
+    background:rgba( 255,255,255,0.7);
+    padding: 16px 0 20px;
+}
+
+.container{
+    width: 100%;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -6px;
+    margin-left: -6px;
+}
+
+.info__content__banners-item {
+    background-color: #931c1f;
+    height: 90px;
+    padding: 0 20px 0 70px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(https://www.kstu.ru/img/icon-chip.png);
+}
